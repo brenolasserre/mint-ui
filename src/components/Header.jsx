@@ -1,7 +1,10 @@
 const Header = () => {
   return (
     <div className="w-full mt-8 mb-14 flex justify-between items-center text-center">
-      <img src="/public/logo.svg" alt="Mint UI" />
+      <img
+        src="https://raw.githubusercontent.com/brenolasserre/mint-ui/88ff25ce229ee28b16623c5c8474ef745cb0498c/public/logo.svg"
+        alt="Mint UI"
+      />
 
       <div className="text-[#caecf1] flex gap-6">
         <a href="/" className="hover:opacity-80 transition ease">
