@@ -6,21 +6,20 @@ import Contenedor from "../components/ContenedorComponentes.tsx";
 ---
 
 <Layout title="MintUI">
+  <Header />
   <main>
-    <div class="flex flex-col">
-      <Header />
-
-      <div class="flex flex-col items-center w-full gap-4 my-12">
+    <div class="flex flex-col !mt-16">
+      <div class="flex flex-col items-center w-full gap-4 my-14">
         <h2
-          class="text-[52px] md:text-[60px] font-bold text-center w-full lg:w-2/3"
+          class="text-[42px] md:text-[60px] leading-[50px] md:leading-[60px] font-bold text-center w-full lg:w-2/3 text-pretty"
         >
           Craft beautiful user interfaces effortlesly
         </h2>
         <p
-          class="subtitle text-[18px] md:text-[20px] text-center w-full lg:w-2/3"
+          class="subtitle text-[17.5px] md:text-[20px] text-center w-full lg:w-2/3 text-pretty"
         >
-          Beautifully designed components made with React and TailwindCSS.
-          Customizable, Accessible, Open-Source and Free Forever.
+          Beautifully designed React and TailwindCSS components. Customizable,
+          Accessible, Open-Source and Free Forever.
         </p>
       </div>
 
@@ -67,7 +66,6 @@ import Contenedor from "../components/ContenedorComponentes.tsx";
   }
   h2 {
     font-family: "Red Rose", serif;
-    line-height: 60px;
   }
   .subtitle {
     line-height: 32px;
