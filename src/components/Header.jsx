@@ -4,6 +4,7 @@ const Header = () => {
       <img
         src="https://raw.githubusercontent.com/brenolasserre/mint-ui/88ff25ce229ee28b16623c5c8474ef745cb0498c/public/logo.svg"
         alt="Mint UI"
+        className="w-[120px] md:w-[150px]"
       />
 
       <div className="text-[#caecf1] flex gap-6">
